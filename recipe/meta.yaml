@@ -1,5 +1,5 @@
 {% set name = "mth5" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mth5-{{ version }}.tar.gz
-  sha256: fd9032059bbcebb1b41aaa2add158330770010b6efecd92462cb067cd0467f0b
+  sha256: a8934b9121f12d3c3ac218c3576a438cd39ca94c3ef6b5a034329de00464f003
 
 build:
   number: 0
@@ -35,7 +35,7 @@ requirements:
 test:
   imports:
     - mth5
-    - mth5.groups
+    - mth5.clients
   commands:
     - pip check
   requires:
@@ -49,5 +49,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - kujaku11
-    - lheagy
+    - jp
