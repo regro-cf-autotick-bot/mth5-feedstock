@@ -1,5 +1,5 @@
 {% set name = "mth5" %}
-{% set version = "0.2.5" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mth5-{{ version }}.tar.gz
-  sha256: a8934b9121f12d3c3ac218c3576a438cd39ca94c3ef6b5a034329de00464f003
+  sha256: 09acc6a31367e733226f550cb2ba76ff12d86766339c5ed37fab61d525112163
 
 build:
   number: 0
