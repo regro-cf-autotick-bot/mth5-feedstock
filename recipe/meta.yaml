@@ -22,7 +22,7 @@ requirements:
 
   run:
     - python {{ python_min }}.*
-    - setuptools <70
+    - setuptools <68
     - h5py
     - matplotlib-base
     - numpy
@@ -32,6 +32,8 @@ requirements:
     - scipy
     - xarray
     - mt-metadata >=1.0.0
+    - mt-timeseries
+    - mt-io
     - email-validator
     - loguru
 
@@ -43,7 +45,7 @@ test:
   requires:
     - python {{ python_min }}
     - pip
-    - setuptools <70
+    - setuptools <68
 
 about:
   home: https://github.com/kujaku11/mth5
